@@ -1,0 +1,169 @@
+object progressive1worldview: Tprogressive1worldview
+  Left = 3
+  Height = 240
+  Top = 311
+  Width = 334
+  HorzScrollBar.Page = 315
+  HorzScrollBar.Range = 315
+  VertScrollBar.Page = 209
+  VertScrollBar.Range = 209
+  BorderStyle = bsSingle
+  Caption = 'progressive1worldview'
+  ClientHeight = 0
+  ClientWidth = 0
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object pain1: TButton
+    Left = 24
+    Height = 25
+    Top = 80
+    Width = 75
+    Caption = '1'
+    OnClick = pain1Click
+    TabOrder = 0
+  end
+  object pain2: TButton
+    Left = 24
+    Height = 25
+    Top = 112
+    Width = 75
+    Caption = '4'
+    OnClick = pain2Click
+    TabOrder = 1
+  end
+  object pain3: TButton
+    Left = 24
+    Height = 25
+    Top = 146
+    Width = 75
+    Caption = '7'
+    OnClick = pain3Click
+    TabOrder = 2
+  end
+  object pain4: TButton
+    Left = 112
+    Height = 25
+    Top = 80
+    Width = 75
+    Caption = '2'
+    OnClick = pain4Click
+    TabOrder = 3
+  end
+  object pain5: TButton
+    Left = 112
+    Height = 27
+    Top = 110
+    Width = 75
+    Caption = '5'
+    OnClick = pain5Click
+    TabOrder = 4
+  end
+  object pain6: TButton
+    Left = 112
+    Height = 25
+    Top = 146
+    Width = 75
+    Caption = '8'
+    OnClick = pain6Click
+    TabOrder = 5
+  end
+  object pain7: TButton
+    Left = 200
+    Height = 25
+    Top = 80
+    Width = 75
+    Caption = '3'
+    OnClick = pain7Click
+    TabOrder = 6
+  end
+  object pain8: TButton
+    Left = 200
+    Height = 25
+    Top = 112
+    Width = 75
+    Caption = '6'
+    OnClick = pain8Click
+    TabOrder = 7
+  end
+  object pain9: TButton
+    Left = 200
+    Height = 25
+    Top = 146
+    Width = 75
+    Caption = '9'
+    OnClick = pain9Click
+    TabOrder = 8
+  end
+  object pain0: TButton
+    Left = 112
+    Height = 25
+    Top = 184
+    Width = 75
+    Caption = '0'
+    OnClick = pain0Click
+    TabOrder = 9
+  end
+  object hate1: TButton
+    Left = 24
+    Height = 25
+    Top = 184
+    Width = 75
+    Caption = 'c'
+    OnClick = hate1Click
+    TabOrder = 10
+  end
+  object hate2: TButton
+    Left = 200
+    Height = 25
+    Top = 184
+    Width = 72
+    Caption = '='
+    OnClick = hate2Click
+    TabOrder = 11
+  end
+  object hate3: TButton
+    Left = 280
+    Height = 25
+    Top = 80
+    Width = 35
+    Caption = '-'
+    OnClick = hate3Click
+    TabOrder = 12
+  end
+  object hate4: TButton
+    Left = 280
+    Height = 25
+    Top = 112
+    Width = 35
+    Caption = '+'
+    OnClick = hate4Click
+    TabOrder = 13
+  end
+  object hate5: TButton
+    Left = 280
+    Height = 25
+    Top = 144
+    Width = 35
+    Caption = '*'
+    OnClick = hate5Click
+    TabOrder = 14
+  end
+  object hate6: TButton
+    Left = 280
+    Height = 25
+    Top = 184
+    Width = 35
+    Caption = '/'
+    OnClick = hate6Click
+    TabOrder = 15
+  end
+  object endless: TEdit
+    Left = 40
+    Height = 23
+    Top = 22
+    Width = 236
+    NumbersOnly = True
+    OnChange = endlessChange
+    TabOrder = 16
+  end
+end
